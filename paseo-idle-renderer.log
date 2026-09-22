@@ -1,0 +1,108 @@
+
+> @getpaseo/desktop@0.9.0 test:e2e:renderer
+> cross-env E2E_DESKTOP_RUNTIME=1 playwright test --config=playwright.config.ts --project=desktop updates.spec.ts --grep Desktop updates
+
+[metro] Starting project at /Users/james/_Dev/paseo/packages/app
+[metro] Using src/app as the root directory for Expo Router.
+[metro] Experimental Expo Autolinking module resolver is enabled.
+[metro] React Compiler enabled
+[metro] Starting Metro Bundler
+[metro] Waiting on http://localhost:50790
+[metro] Logs for your project will appear below.
+[metro] | (node:1035) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1039) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1038) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1040) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1042) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:1041) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] Web packages/app/index.ts ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 69.1% ( 915/1455)
+[metro] Web packages/app/index.ts ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 74.3% (3436/3986)
+[metro] Web packages/app/index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 95.1% (4707/4854)
+[metro] Web packages/app/index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (5156/5157)
+[metro] Web packages/app/index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (5157/5157)
+[metro] Web Bundled 19013ms packages/app/index.ts (5157 modules)
+[e2e] Metro warmed on port 50790
+
+Running 11 tests using 1 worker
+
+(node:1189) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1189) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[e2e] Worker 0 daemon started on port 50840, home: /var/folders/zg/pjmgj8t95h528b8xj6svjdg00000gn/T/paseo-e2e-worker-0-qyrLzo
+[metro] Web packages/app/index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[metro] Web Bundled 215ms packages/app/index.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 65ms packages/app/src/attachments/web/indexeddb-attachment-store.ts (1 module)
+[metro] Web Bundled 213ms packages/app/index.ts (1 module)
+[metro] Web Bundled 4ms packages/app/src/attachments/web/indexeddb-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+  ✓   1 [desktop] › e2e/updates.spec.ts:34:7 › Desktop updates › a desktop-managed daemon explains why its update action is disabled (6.5s)
+[metro] Web Bundled 215ms packages/app/index.ts (1 module)
+[metro] Web packages/app/src/desktop/attachments/desktop-attachment-store.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 40ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro] Web Bundled 42ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   2 [desktop] › e2e/updates.spec.ts:52:7 › Desktop updates › clicking install shows the installing state on the callout (2.7s)
+[metro] Web Bundled 211ms packages/app/index.ts (1 module)
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 5ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   3 [desktop] › e2e/updates.spec.ts:66:7 › Desktop updates › a scheduled update can be cancelled from the callout (2.8s)
+[metro] Web Bundled 241ms packages/app/index.ts (1 module)
+[metro] Web packages/app/index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   4 [desktop] › e2e/updates.spec.ts:82:7 › Desktop updates › a failed activity check displays an error without restarting (2.8s)
+[metro] Web Bundled 221ms packages/app/index.ts (1 module)
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   5 [desktop] › e2e/updates.spec.ts:92:7 › Desktop updates › manual check reports a found update while it downloads (2.9s)
+[metro] Web Bundled 217ms packages/app/index.ts (1 module)
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 5ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   6 [desktop] › e2e/updates.spec.ts:107:7 › Desktop updates › manual update remains available after the automatic rollout recheck (13.8s)
+[metro] Web packages/app/index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[metro] Web Bundled 241ms packages/app/index.ts (1 module)
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   7 [desktop] › e2e/updates.spec.ts:123:7 › Desktop daemon management › cancelling the management confirmation preserves the enabled daemon (3.1s)
+[metro] Web Bundled 216ms packages/app/index.ts (1 module)
+[metro] Web Bundled 5ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 6ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   8 [desktop] › e2e/updates.spec.ts:140:7 › Desktop daemon management › confirming the dialog disables built-in daemon management (3.5s)
+[metro] Web Bundled 268ms packages/app/index.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 14ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro] Web Bundled 6ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓   9 [desktop] › e2e/updates.spec.ts:156:7 › Desktop daemon management › daemon status panel renders version, PID, and log path from the real daemon (4.2s)
+[metro] Web Bundled 250ms packages/app/index.ts (1 module)
+[metro] Web packages/app/src/desktop/attachments/desktop-attachment-store.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 4ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓  10 [desktop] › e2e/updates.spec.ts:177:9 › Desktop daemon management › cancelling Stop identifies the owned daemon (3.3s)
+[metro] Web Bundled 214ms packages/app/index.ts (1 module)
+[metro] Web Bundled 5ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 5ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓  11 [desktop] › e2e/updates.spec.ts:177:9 › Desktop daemon management › confirming Stop identifies the owned daemon (3.0s)
+[e2e] Worker 0 daemon stopped
+[e2e] Metro stopped
+
+  11 passed (1.3m)

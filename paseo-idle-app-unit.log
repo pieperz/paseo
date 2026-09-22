@@ -1,0 +1,9 @@
+
+ RUN  v4.1.7 /Users/james/_Dev/paseo
+
+
+ Test Files  4 passed (4)
+      Tests  89 passed (89)
+   Start at  07:56:33
+   Duration  1.11s (transform 1.35s, setup 0ms, import 1.42s, tests 912ms, environment 0ms)
+

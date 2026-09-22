@@ -1,0 +1,27 @@
+ M packages/cli/src/commands/daemon/stop.ts
+ M packages/client/src/daemon-client.test.ts
+ M packages/client/src/daemon-client.ts
+ M packages/protocol/src/messages.ts
+ M packages/server/src/server/agent/agent-manager.test.ts
+ M packages/server/src/server/agent/agent-manager.ts
+ M packages/server/src/server/daemon-instance.ts
+ M packages/server/src/server/session.test.ts
+ M packages/server/src/server/session.ts
+ M packages/server/src/server/websocket-server.ts
+?? packages/server/src/server/daemon-instance.test.ts
+----
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.7 [39m[90m/Users/james/_Dev/paseo[39m
+
+ [32m✓[39m packages/server/src/server/daemon-instance.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m packages/server/src/server/agent/agent-manager.test.ts [2m([22m[2m188 tests[22m[2m | [22m[33m187 skipped[39m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m packages/client/src/daemon-client.test.ts [2m([22m[2m140 tests[22m[2m | [22m[33m138 skipped[39m[2m)[22m[32m 102[2mms[22m[39m
+(node:7219) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ [32m✓[39m packages/server/src/server/session.test.ts [2m([22m[2m149 tests[22m[2m | [22m[33m148 skipped[39m[2m)[22m[32m 7[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m5 passed[39m[22m[2m | [22m[33m473 skipped[39m[90m (478)[39m
+[2m   Start at [22m 08:02:50
+[2m   Duration [22m 5.23s[2m (transform 10.84s, setup 0ms, import 12.90s, tests 131ms, environment 0ms)[22m
+

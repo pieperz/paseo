@@ -1,0 +1,36 @@
+
+ RUN  v4.1.7 /Users/james/_Dev/paseo
+
+ ❯ packages/desktop/src/features/app-update-service.test.ts (25 tests | 1 failed) 10ms
+     × keeps the downloaded update when the before-quit wait is cancelled 4ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  packages/desktop/src/features/app-update-service.test.ts > app update service > keeps the downloaded update when the before-quit wait is cancelled
+AssertionError: expected { installed: true, …(2) } to match object { installed: false }
+(2 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+-   "installed": false,
++   "installed": true,
+  }
+
+ ❯ packages/desktop/src/features/app-update-service.test.ts:491:30
+    489|     expect(runtime.installedVersions).toEqual([]);
+    490|     finishWait(false);
+    491|     expect(await installing).toMatchObject({ installed: false });
+       |                              ^
+    492|     expect(runtime.installedVersions).toEqual([]);
+    493|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 12 passed (25)
+   Start at  07:40:04
+   Duration  190ms (transform 39ms, setup 0ms, import 98ms, tests 10ms, environment 0ms)
+

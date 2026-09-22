@@ -1,0 +1,26 @@
+Desktop command: start_desktop_daemon
+Desktop command: stop_desktop_daemon (quit)
+Desktop command: stop_desktop_daemon (settings)
+Desktop command: stop_desktop_daemon (app_update)
+Desktop command: stop_desktop_daemon (host_remove)
+Desktop command: stop_desktop_daemon (version_mismatch)
+Desktop command: restart_desktop_daemon
+Desktop command: stop_desktop_daemon (manual_ipc)
+Desktop command: stop_desktop_daemon (manual_ipc)
+Desktop command: start_desktop_daemon
+Lifecycle artifacts: /var/folders/zg/pjmgj8t95h528b8xj6svjdg00000gn/T/paseo-desktop-lifecycle-artifacts-gVho8J
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Missing expected rejection.
+    at async file:///Users/james/_Dev/paseo/packages/desktop/e2e/daemon-lifecycle.e2e.mjs:147:5 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: /busy/i,
+  operator: 'rejects',
+  diff: 'simple'
+}
+
+Node.js v24.13.1

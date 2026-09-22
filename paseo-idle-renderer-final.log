@@ -1,0 +1,39 @@
+
+> @getpaseo/desktop@0.9.0 test:e2e:renderer
+> cross-env E2E_DESKTOP_RUNTIME=1 playwright test --config=playwright.config.ts --project=desktop updates.spec.ts --grep a scheduled update can be cancelled
+
+[metro] Starting project at /Users/james/_Dev/paseo/packages/app
+[metro] Using src/app as the root directory for Expo Router.
+[metro] Experimental Expo Autolinking module resolver is enabled.
+[metro] React Compiler enabled
+[metro] Starting Metro Bundler
+[metro] Waiting on http://localhost:54928
+[metro] Logs for your project will appear below.
+[metro] | (node:45835) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:45836) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:45837) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] | (node:45838) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[metro] | (Use `node --trace-warnings ...` to show where the warning was created)
+[metro] Web Bundled 2107ms packages/app/index.ts (5157 modules)
+[e2e] Metro warmed on port 54928
+
+Running 1 test using 1 worker
+
+(node:45872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[e2e] Worker 0 daemon started on port 54952, home: /var/folders/zg/pjmgj8t95h528b8xj6svjdg00000gn/T/paseo-e2e-worker-0-PHvRqw
+[metro] Web packages/app/index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[metro] Web Bundled 209ms packages/app/index.ts (1 module)
+[metro]  LOG  [web] Logs will appear in the browser console
+[metro] Web Bundled 31ms packages/app/src/desktop/attachments/desktop-attachment-store.ts (1 module)
+[metro] Web Bundled 33ms packages/app/src/desktop/attachments/desktop-attachment-bridge.ts (1 module)
+  ✓  1 [desktop] › e2e/updates.spec.ts:66:7 › Desktop updates › a scheduled update can be cancelled from the callout (2.9s)
+[e2e] Worker 0 daemon stopped
+[e2e] Metro stopped
+
+  1 passed (12.5s)
